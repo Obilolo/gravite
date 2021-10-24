@@ -1,3 +1,10 @@
+basic.showLeds(`
+    . . . . .
+    . . # . .
+    . # # # .
+    . . # . .
+    . . . . .
+    `)
 basic.forever(function () {
     if (input.isGesture(Gesture.LogoUp)) {
         basic.showLeds(`
@@ -32,6 +39,15 @@ basic.forever(function () {
             . . . # .
             . . # # #
             . . . # .
+            . . . . .
+            `)
+    }
+    if (input.isGesture(Gesture.ScreenUp)) {
+        basic.showLeds(`
+            . . . . .
+            . . # . .
+            . # # # .
+            . . # . .
             . . . . .
             `)
     }

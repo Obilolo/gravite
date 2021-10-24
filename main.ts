@@ -1,3 +1,4 @@
+basic.showString("Gravité")
 basic.showLeds(`
     . . . . .
     . . # . .

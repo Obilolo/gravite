@@ -1,37 +1,37 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="0d9m8:jc3WKz``s2cp]O" x="12" y="-331"><statement name="HANDLER"><block type="device_print_message" id="WEf`y$O-DDN5)SR:T$I#"><value name="text"><shadow type="text" id="{Hhw268+s3{9@i5XFcIb"><field name="TEXT">Gravite</field></shadow></value><next><block type="device_show_leds" id="xWoUpnbj^L8}WAxG]a[R"><field name="LEDS">`
         . . . . . 
-        . . # . . 
         . # # # . 
-        . . # . . 
+        . # # # . 
+        . # # # . 
         . . . . .
         `</field></block></next></block></statement></block><block type="device_forever" id="N8#tlPCYdE*d%-@ql~}a" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="%,e*w+ibr3id}K$)O^xK"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="PfH_hSy5-*(!*GE#Op.A"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO0"><block type="device_show_leds" id="8L9m[6+m2B`ckGw*#omK"><field name="LEDS">`
         . . . . . 
         . . . . . 
-        . . # . . 
-        . # # # . 
-        . . # . .
+        . . . . . 
+        # # . # # 
+        . # # # .
         `</field></block></statement><next><block type="controls_if" id="Set~g%y~dnk,F3YNs_T4"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="9g{*`y1;PY((,2=l@dl;"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO0"><block type="device_show_leds" id=";(b}Rf}2hkOZ[1xM]o2o"><field name="LEDS">`
-        . . # . . 
         . # # # . 
-        . . # . . 
+        # # . # # 
+        . . . . . 
         . . . . . 
         . . . . .
         `</field></block></statement><next><block type="controls_if" id="dq{$ypz7NpEh+~ss_8g7"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="{s^P[Bn=,oUqz:W}OT}G"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO0"><block type="device_show_leds" id="f+9smI,AL+B;_~BGlx5q"><field name="LEDS">`
-        . . . . . 
         . # . . . 
-        # # # . . 
-        . # . . . 
-        . . . . .
+        # # . . . 
+        # . . . . 
+        # # . . . 
+        . # . . .
         `</field></block></statement><next><block type="controls_if" id="UY|+hU9-kF59EDU1dZU|"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="V$9P-0K7E(YO#)](ZC*l"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO0"><block type="device_show_leds" id="O(RtaSmq!#}6KNn|;SH5"><field name="LEDS">`
-        . . . . . 
         . . . # . 
-        . . # # # 
-        . . . # . 
-        . . . . .
+        . . . # # 
+        . . . . # 
+        . . . # # 
+        . . . # .
         `</field></block></statement><next><block type="controls_if" id="8Kw!nB^C:U=2Fp]!yoE2"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="2BRUe{X7OV*?VV/Ad007"><field name="gesture">Gesture.ScreenUp</field></block></value><statement name="DO0"><block type="device_show_leds" id="U-KXHM~ttvR3slNHdCQ/"><field name="LEDS">`
         . . . . . 
-        . . # . . 
         . # # # . 
-        . . # . . 
+        . # # # . 
+        . # # # . 
         . . . . .
         `</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block></xml>

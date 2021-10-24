@@ -1,9 +1,9 @@
 basic.showString("Gravite")
 basic.showLeds(`
     . . . . .
-    . . # . .
     . # # # .
-    . . # . .
+    . # # # .
+    . # # # .
     . . . . .
     `)
 basic.forever(function () {
@@ -11,44 +11,44 @@ basic.forever(function () {
         basic.showLeds(`
             . . . . .
             . . . . .
-            . . # . .
+            . . . . .
+            # # . # #
             . # # # .
-            . . # . .
             `)
     }
     if (input.isGesture(Gesture.LogoDown)) {
         basic.showLeds(`
-            . . # . .
             . # # # .
-            . . # . .
+            # # . # #
+            . . . . .
             . . . . .
             . . . . .
             `)
     }
     if (input.isGesture(Gesture.TiltLeft)) {
         basic.showLeds(`
-            . . . . .
             . # . . .
-            # # # . .
+            # # . . .
+            # . . . .
+            # # . . .
             . # . . .
-            . . . . .
             `)
     }
     if (input.isGesture(Gesture.TiltRight)) {
         basic.showLeds(`
-            . . . . .
             . . . # .
-            . . # # #
+            . . . # #
+            . . . . #
+            . . . # #
             . . . # .
-            . . . . .
             `)
     }
     if (input.isGesture(Gesture.ScreenUp)) {
         basic.showLeds(`
             . . . . .
-            . . # . .
             . # # # .
-            . . # . .
+            . # # # .
+            . # # # .
             . . . . .
             `)
     }
